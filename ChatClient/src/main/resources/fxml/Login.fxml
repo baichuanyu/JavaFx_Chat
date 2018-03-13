@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<SplitPane dividerPositions="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="800.0" prefWidth="524.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="uispider.controller.Controller">
+  <items>
+    <BorderPane prefHeight="759.0" prefWidth="522.0">
+      <center>
+        <GridPane prefHeight="798.0" prefWidth="522.0">
+          <children>
+            <Label prefHeight="40.0" prefWidth="104.0" text="用户名：" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label prefHeight="40.0" prefWidth="104.0" text="密   码：" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button cancelButton="false" defaultButton="true" mnemonicParsing="false" opacity="0.9" scaleX="1.0" style="-fx-background-color:#ffcb66" text="connect" textAlignment="CENTER" textFill="BLACK" textOverrun="CLIP" translateX="15.0" underline="false" wrapText="false" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="260.0" minWidth="10.0" prefWidth="83.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="422.0" minWidth="10.0" prefWidth="74.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="422.0" minWidth="10.0" prefWidth="212.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="422.0" minWidth="10.0" prefWidth="153.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints maxHeight="205.0" minHeight="10.0" prefHeight="130.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="359.0" minHeight="10.0" prefHeight="359.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="271.0" minHeight="0.0" prefHeight="57.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="331.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="409.0" minHeight="10.0" prefHeight="206.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+      </center>
+    </BorderPane>
+  </items>
+</SplitPane>
